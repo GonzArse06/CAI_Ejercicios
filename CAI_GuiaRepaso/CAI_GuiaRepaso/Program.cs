@@ -9,21 +9,60 @@ namespace CAI_GuiaRepaso
             const int numEjercicio = 20;
             const int minimo = 1;
             int numero = 0;
-            numero = Validaciones.pedirNumero("numero de ejercicio", minimo, numEjercicio);
-            switch (numero)
+            IEjercicios practica = new Ejercicio1();
+
+            bool esCaso; 
+            string seguir = "n";
+            do
             {
-                case 1:
-                    Ejercicio1 a = new Ejercicio1();
-                    a.Inicial();
-                    break;
-                case 2:
-                    Ejercicio2 b = new Ejercicio2();
-                    b.Inicial();
-                    break;
-                default:
-                    break;
-            }
-            Console.ReadKey();
+                numero = Validaciones.pedirNumero("numero de ejercicio", minimo, numEjercicio);
+                esCaso = false;
+                switch (numero)
+                {
+
+                    case 1:
+                        practica = new Ejercicio1();
+                        esCaso = true;
+                        break;
+                    case 2:
+                        practica = new Ejercicio2();
+                        esCaso = true;
+                        break;
+                    case 3:
+                        practica = new Ejercicio3();
+                        esCaso = true;
+                        break;
+                    case 4:
+                        practica = new Ejercicio4();
+                        esCaso = true;
+                        break;
+                    case 5:
+                        practica = new Ejercicio5();
+                        esCaso = true;
+                        break;
+                    case 6:
+                        practica = new Ejercicio6();
+                        esCaso = true;
+                        break;
+                    case 7:
+                        practica = new Ejercicio7();
+                        esCaso = true;
+                        break;
+                    case 8:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    default:
+                        break;
+                }
+                if (esCaso)
+                { 
+                    practica.Inicial();
+                    Console.ReadKey();
+                }
+                seguir = Validaciones.pedirContinuar();
+                               
+            } while (seguir == "S");
         }
     }
 }

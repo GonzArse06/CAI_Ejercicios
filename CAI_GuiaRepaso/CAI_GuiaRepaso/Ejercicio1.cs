@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CAI_GuiaRepaso
 {
-    class Ejercicio1
+    class Ejercicio1:IEjercicios
     {
         const int min = 1;
         const int max = 999999;

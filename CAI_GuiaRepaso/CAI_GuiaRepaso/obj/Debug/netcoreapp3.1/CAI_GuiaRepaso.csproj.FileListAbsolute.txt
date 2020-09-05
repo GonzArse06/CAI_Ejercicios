@@ -1,0 +1,13 @@
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\obj\Debug\netcoreapp3.1\CAI_GuiaRepaso.csprojAssemblyReference.cache
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\obj\Debug\netcoreapp3.1\CAI_GuiaRepaso.AssemblyInfoInputs.cache
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\obj\Debug\netcoreapp3.1\CAI_GuiaRepaso.AssemblyInfo.cs
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\obj\Debug\netcoreapp3.1\CAI_GuiaRepaso.csproj.CoreCompileInputs.cache
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\bin\Debug\netcoreapp3.1\CAI_GuiaRepaso.exe
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\bin\Debug\netcoreapp3.1\CAI_GuiaRepaso.deps.json
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\bin\Debug\netcoreapp3.1\CAI_GuiaRepaso.runtimeconfig.json
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\bin\Debug\netcoreapp3.1\CAI_GuiaRepaso.runtimeconfig.dev.json
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\bin\Debug\netcoreapp3.1\CAI_GuiaRepaso.dll
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\bin\Debug\netcoreapp3.1\CAI_GuiaRepaso.pdb
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\obj\Debug\netcoreapp3.1\CAI_GuiaRepaso.dll
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\obj\Debug\netcoreapp3.1\CAI_GuiaRepaso.pdb
+C:\Users\gcarranza\Documents\GitHub\CAI_Ejercicios\CAI_GuiaRepaso\CAI_GuiaRepaso\obj\Debug\netcoreapp3.1\CAI_GuiaRepaso.genruntimeconfig.cache

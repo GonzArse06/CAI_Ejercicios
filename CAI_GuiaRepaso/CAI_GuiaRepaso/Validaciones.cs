@@ -42,7 +42,7 @@ namespace CAI_GuiaRepaso
             bool estaOk = false;
             do
             {
-                Console.Write("Ingrese: S para continuar o N para salir: ");
+                Console.Write("Desea probar otro ejercicio? Ingrese: 'S' para continuar o 'N' para salir: ");
                 texto = Console.ReadLine().ToUpper();
                 if (string.IsNullOrEmpty(texto))
                     Console.WriteLine("Por favor, ingrese un texto");
@@ -54,6 +54,24 @@ namespace CAI_GuiaRepaso
                     Console.WriteLine("Por favor, ingrese S o N");
             } while (!estaOk);
             return texto;
+        }
+        public static DateTime PedirFecha(string mensaje)
+        {
+            DateTime valor;
+            bool ok = false;
+            do
+            {
+                if (!DateTime.TryParse(Validaciones.pedirTexto(mensaje), out valor))
+                {
+                    Console.WriteLine("Error. Ingresar una fecha: ");
+                }                
+                else
+                {
+                    ok = true;
+                }
+            } while (!ok);
+
+            return valor;
         }
     }
 }

@@ -15,8 +15,12 @@ namespace CAI_GuiaRepaso
             {
                 if (!DateTime.TryParse(Validaciones.pedirTexto("fecha"), out fecha))
                 {
-                    Console.WriteLine("Ingrese una fecha.");
+                    Console.WriteLine("Error. Ingresar una fecha: ");
                 }
+                else if (hoy < fecha)
+                {
+                    Console.WriteLine("No puede ingresar una fecha mayor a hoy. Reingrese.");
+                } 
                 else
                 {
                     ok = true;
@@ -24,7 +28,7 @@ namespace CAI_GuiaRepaso
             } while (!ok);
             TimeSpan span = hoy.Subtract(fecha);
 
-            Console.WriteLine("La diferencia de fechas es "+ span.Days);
+            Console.WriteLine("La diferencia de fechas es {0} dias.", + span.Days);
         }
     }
 }

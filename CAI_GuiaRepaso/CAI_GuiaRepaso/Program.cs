@@ -52,12 +52,61 @@ namespace CAI_GuiaRepaso
                         practica = new Ejercicio8();
                         esCaso = true;
                         break;
+                    case 9:
+                        practica = new Ejercicio9();
+                        esCaso = true;
+                        break;
+                    case 10:
+                        practica = new Ejercicio10();
+                        esCaso = true;
+                        break;
+                    case 11:
+                        practica = new Ejercicio11();
+                        esCaso = true;
+                        break;
+                    case 12:
+                        practica = new Ejercicio12();
+                        esCaso = true;
+                        break;
+                    case 13:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    case 14:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    case 15:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    case 16:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    case 17:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    case 18:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    case 19:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
+                    case 20:
+                        practica = new Ejercicio8();
+                        esCaso = true;
+                        break;
                     default:
                         break;
                 }
                 if (esCaso)
                 { 
                     practica.Inicial();
+                    Console.WriteLine("Enter para poder continuar.....");
                     Console.ReadKey();
                 }
                 seguir = Validaciones.pedirContinuar();

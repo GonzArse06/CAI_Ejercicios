@@ -16,8 +16,6 @@ namespace CAI_GuiaRepaso
             }
             Array.Sort(numeros);
             Console.WriteLine("El menor numero: "+numeros[0] + ".\nEl intermedio numero: "+numeros[2] + ".\nEl mayor numero: " + numeros[4]);
-
-
         }
     }
 }

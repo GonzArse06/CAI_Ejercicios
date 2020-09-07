@@ -69,35 +69,35 @@ namespace CAI_GuiaRepaso
                         esCaso = true;
                         break;
                     case 13:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio13();
                         esCaso = true;
                         break;
                     case 14:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio14();
                         esCaso = true;
                         break;
                     case 15:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio15();
                         esCaso = true;
                         break;
                     case 16:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio16();
                         esCaso = true;
                         break;
                     case 17:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio17();
                         esCaso = true;
                         break;
                     case 18:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio18();
                         esCaso = true;
                         break;
                     case 19:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio19();
                         esCaso = true;
                         break;
                     case 20:
-                        practica = new Ejercicio8();
+                        practica = new Ejercicio20();
                         esCaso = true;
                         break;
                     default:
@@ -106,7 +106,7 @@ namespace CAI_GuiaRepaso
                 if (esCaso)
                 { 
                     practica.Inicial();
-                    Console.WriteLine("Enter para poder continuar.....");
+                    Console.WriteLine("\nEjercicio finalizado. Enter para poder continuar.....");
                     Console.ReadKey();
                 }
                 seguir = Validaciones.pedirContinuar();

@@ -15,14 +15,32 @@ namespace CAI_GuiaRepaso
                 if (!(int.TryParse(Console.ReadLine(), out num)))
                 {
                     num = -1;
-                    Console.WriteLine("Reingrese numero");
+                    Console.WriteLine("Error. Reingrese un valor numerico.");
                 }
                 else if (num < minimo || num > max)
                 {
-                    Console.WriteLine("El numero debe estar entre " + minimo + " y " + max);
+                    Console.WriteLine("Error. El numero debe estar entre " + minimo + " y " + max);
                 }
             } while (num < minimo || num > max);
             return num;
+        }
+        public static double pedirDouble(string mensaje, double min, double max)
+        {
+            double resultado = 0;
+            do
+            {
+                Console.Write("Ingrese " + mensaje + ": ");
+                if (!double.TryParse(Console.ReadLine(), out resultado))
+                {
+                    Console.WriteLine("Error. Reingrese un valor numerico.");
+                }
+                else if (resultado < min || resultado > max)
+                {
+                    Console.WriteLine("Error. El numero debe estar entre " + min + " y " + max);
+                }
+            } while (resultado < min || resultado > max);
+
+            return resultado;
         }
         public static string pedirTexto(string mensaje)
         {
@@ -42,7 +60,7 @@ namespace CAI_GuiaRepaso
             bool estaOk = false;
             do
             {
-                Console.Write("Desea probar otro ejercicio? Ingrese: 'S' para continuar o 'N' para salir: ");
+                Console.Write("Desea probar otro ejercicio? 'S' para SI o 'N' para salir de la app.");
                 texto = Console.ReadLine().ToUpper();
                 if (string.IsNullOrEmpty(texto))
                     Console.WriteLine("Por favor, ingrese un texto");
